@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+}
+
+.header {
+    background-color: #263238;
+    color: #eceff1;
+    /* box-shadow: black 0 -5px 8px; */
+    height: 45px;
+}
+
+.font-semibold {
+    font-weight: 600;
+}
+
+.font-1rem {
+    font-size: 1rem;
+}
+
+.font-1-15rem {
+    font-size: 1.15rem;
+}
+
+.font-1-25rem {
+    font-size: 1.25rem;
+}
+
+.header-nav-container {
+    margin: 0 0 0 1rem;
+}
+
+.header-nav {
+    text-decoration: none;
+    padding: 0 0.5rem;
+    color: #eceff1;
+    display: flex;
+    align-items: center;
+}
+
+.header-nav:hover {
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: #eceff1;
+    background-color: #21292e;
+}
+
+.hamburger-header-button {
+    background-color: transparent;
+    border: none;
+    color: #eceff1;
+    /* height: 45px; */
+    width: 45px;
+    padding: 0;
+    margin: 0;
+}
+
+.hamburger-header-button:hover {
+    transition: all 0.3s ease;
+    background-color: #21292e;
+    border: none;
+}
+
+.hamburger-header-button:focus {
+    outline: none;
+}
+
+#header-full {
+    display: none !important;
+}
+
+#header-mini {
+    display: flex !important;
+}
+
+.header-title {
+    padding: 0 0 0 15px !important;
+}
+
+.container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+@media screen and (min-width: 576px) {
+    #header-full {
+        display: flex !important;
+    }
+    #header-mini {
+        display: none !important;
+    }
+    .container {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+    #hamburger-menu {
+        display: none !important;
+    }
+}
+
+#hamburger-menu {
+    border-top: 1px #37474f solid;
+    background-color: #263238;
+    color: white;
+    display: none;
+}
+
+.hamburger-menu-nav-profile {
+    /* border-bottom: 1px black solid; */
+}
+
+.hamburger-menu-nav {
+    text-decoration: none;
+    /*padding: 0 0.5rem;*/
+    color: #eceff1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 8px 15px;
+}
+
+.hamburger-menu-nav:hover {
+    text-decoration: none;
+    transition: all 0.3s ease;
+    color: #eceff1;
+    background-color: #21292e;
+}
+
+.search-under-panel {
+    background-color: #263238;
+    color: #eceff1;
+}
