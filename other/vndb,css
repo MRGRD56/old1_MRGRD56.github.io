@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap);
+body,
+html {
+    min-width: 905px
+}
+
+#header>h1>a {
+    text-shadow: #000 2px 2px 1px;
+    color: #ff8c00;
+    font-style: normal;
+    position: relative;
+    top: -200px
+}
+
+.mainbox>h1 {
+    text-shadow: #000 1px 1px 3px
+}
+
+input,
+select {
+    border-radius: 2px
+}
+
+@keyframes abobaAnimation {
+    0% {
+        content: "🟥🟥🟥🟥🟥 #НАШКАНДИДАТ"
+    }
+    10% {
+        content: "🅰🟥🟥🟥🟥 #НАШКАНДИДАТ"
+    }
+    20% {
+        content: "🅱🅰🟥🟥🟥 #НАШКАНДИДАТ"
+    }
+    30% {
+        content: "🅾🅱🅰🟥🟥 #НАШКАНДИДАТ"
+    }
+    40% {
+        content: "🅱🅾🅱🅰🟥 #НАШКАНДИДАТ"
+    }
+    50% {
+        content: "🅰🅱🅾🅱🅰 #НАШКАНДИДАТ"
+    }
+    60% {
+        content: "🟥🅰🅱🅾🅱 #НАШКАНДИДАТ"
+    }
+    70% {
+        content: "🟥🟥🅰🅱🅾 #НАШКАНДИДАТ"
+    }
+    80% {
+        content: "🟥🟥🟥🅰🅱 #НАШКАНДИДАТ"
+    }
+    90% {
+        content: "🟥🟥🟥🟥🅰 #НАШКАНДИДАТ"
+    }
+    100% {
+        content: "🟥🟥🟥🟥🟥 #НАШКАНДИДАТ"
+    }
+}
+
+#header>h1>a::after {
+    display: block;
+    content: "🅰🅱🅾🅱🅰 #НАШКАНДИДАТ";
+    margin-top: 165px;
+    animation: abobaAnimation 3s linear infinite alternate
+}
+
+#css {
+    font-family: "JetBrains Mono", Consolas, monospace;
+    height: 400px;
+    line-height: 16px;
+    font-size: 13px;
+    background: url(https://i.ibb.co/Z6PNdq7/lines-black.png) #0f0f0f;
+    background-attachment: local;
+    background-repeat: no-repeat;
+    padding-left: 35px;
+    padding-top: 10px;
+    border-color: #0f0f0f;
+    color-scheme: dark
+}
+
+#css:focus {
+    outline: 0
+}
+
+body {
+    background: #000 url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8797886e-70c0-4043-bb38-537208039ecd/dc0xokg-72ec3c19-41d6-4ed9-af0c-2599de2fd271.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvODc5Nzg4NmUtNzBjMC00MDQzLWJiMzgtNTM3MjA4MDM5ZWNkXC9kYzB4b2tnLTcyZWMzYzE5LTQxZDYtNGVkOS1hZjBjLTI1OTlkZTJmZDI3MS5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.N1du2C0HXx81m3Pz_cWnXhUekVzP_0FvrcYJEka7Dg4);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center
+}
+
+#bgright {
+    display: none
+}
+
+#support {
+    display: none
+}
